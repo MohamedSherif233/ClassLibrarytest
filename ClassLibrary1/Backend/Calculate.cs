@@ -11,6 +11,9 @@ namespace ClassLibrary1.Backend
         public double Add(double a, double b)
         {
             return a + b;
-        }   
+        }  
+        public void DoNothing()
+        {
+        }
     }
 }
