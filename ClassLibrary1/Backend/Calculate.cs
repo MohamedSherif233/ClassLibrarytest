@@ -19,5 +19,13 @@ namespace ClassLibrary1.Backend
         {
             return a * b;
         }
+        public int Divide(int a, int b)
+        {
+            if (b == 0)
+            {
+                throw new DivideByZeroException("Denominator cannot be zero.");
+            }
+            return a / b;
+        }
     }
 }
