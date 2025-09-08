@@ -3,6 +3,9 @@
     public class Class1
     {
         public int id { get; set; }
-        public int id2 { get; set; } 
+        public string? name { get; set; }    
+        public int age { get; set; }
+
+
     }
 }
